@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nishant-Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" >
+      <href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mukta:wght@300&family=Poppins&display=swap"
+      rel="stylesheet"/>
+    
+    
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Nishant's portfolio</div>
+        <div class="right">
+          <ul>
+          <li> <a href="/">Home</a></li>
+          <li> <a href="#about">About</a></li>
+          <li> <a href="#services">Services</a></li>
+          <li> <a href="#portfolio">My Portfolio</a></li>
+          <li> <a href="#contact">Contact me</a></li>
+        </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hii, my name is <span class="purple">Nishant</span> 
+          <div> and i'm a passionate</div> 
+          <div class="blue">front-end web developer.</div> <span id="element"></span>
+        </div>
+         
+        <div class="rightsection">
+          <img src="./images/bg.png" alt="">
+        </div>
+      
+      </section>
+        <hr>
+      <section class="secondsection">
+        
+      </section>
+
+      
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What I Do">Services</h3>
+            <p class="text">
+              
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img src="images/web-design.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Design</h3>
+                  <p class="text">
+                    The Ultimate Guide To Website Design What is Web Design? Web design is the process of planning, conceptualizing, and arranging content online.
+                  </p>
+                  <a href="#" class="btn small">show more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="images/web-dev.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Development</h3>
+                  <p class="text">
+                    A web developer doesn't just build websites where users can get information about a company, for example.
+                  </p>
+                  <a href="#" class="btn small">Show more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="images/app-dev.png" class="icon" alt="" />
+                  <h3 class="title-sm">App Development</h3>
+                  <p class="text">Apps have turned mobile devices into handheld computers and transformed the way people interact.</p>
+                  <a href="#" class="btn small">Show more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title"data-title="My work">Protfolio</h3>    
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX</button>
+              <button class="filter-btn"data-filter=".webdev">Web dev</button>
+              <button class="filter-btn"data-filter=".appdev">App dev</button>
+              <button class="filter-btn"data-filter=".logo-design">Logo Design</button> 
+            </div>
+          </div>
+        </div>
+      </section>          
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Hello, I'm</h3>
+              <p class="text">
+              <div class="name
+              "><h1>Nishant</h1></div> a proficient in front-end development, including HTML5, CSS3, JavaScript, and responsive design principles. With extensive experience with popular frameworks and libraries such as React and Angular, enabling to build interactive and dynamic web applications. And also possesses strong skills in back-end development, working with technologies like Node.js and PHP, and leveraging databases like MySQL and MongoDB.
+              </p>
+              
+              
+
+            <div class="column-2 image">
+              <img src="./images/anime.png" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>  
+      <section class="call">
+        <div class="container-ml" id="contac">
+          <h2>Contact Us</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="send">Send</button>
+            </div>
+      </section>
+    
+    
+      <section>
+      <footer class="footer">
+        <div class="container">
+          <div class="grid-4">
+            <div class="grid-4-col footer-about">
+              <h3 class="title-sm">About</h3>
+              <p class="text">
+                Hope you have like the portfolio pplease visit again!!
+              </p>
+            </div>
+  
+            <div class="grid-4-col footer-links">
+              <h3 class="title-sm">Links</h3>
+              <ul>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="grid-4-col footer-links">
+              <h3 class="title-sm">Services</h3>
+              <ul>
+                <li>
+                  <a href="#">Web Design</a>
+                </li>
+                <li>
+                  <a href="#">Web Dev</a>
+                </li>
+                <li>
+                  <a href="#">App Design</a>
+                </li>
+                <li>
+                  <a href="#">Marketing</a>
+                </li>
+                <li>
+                  <a href="#">UI Design</a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="grid-4-col footer-newstletter">
+              <h3 class="title-sm">Subscribe</h3>
+              <p class="text">
+                Thanks for visiting! have a great day!!!!
+              </p>
+              <div class="footer-input-wrap">
+                <input type="email" class="footer-input" placeholder="Email" />
+                <a href="#" class="input-arrow">
+                 
+                </a>
+              </div>
+            </div>
+          </div>
+  
+               
+              </p>
+            </div>
+  
+            
+      </footer>
+    </section>    
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['<i>Web</i> Developer.', '&amp;UI/UX Designer.','video editor.','Photograher.','Android developer.'],
+        typeSpeed: 40,
+      });
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
